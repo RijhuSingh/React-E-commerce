@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    padding: 30px 40px;
+    background: #ecf2f7;
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.footer-about{
+    max-width: 30%;
+}
+
+.footer-detail p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #010f1c;
+}
+
+.footer-icon{
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-icon li{
+    padding: 10px 10px;
+    margin-left: 20px;
+    list-style: none;
+    box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer-icon li:hover{
+    background: #0989ff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-account{
+    margin: 20px 90px 0px 0px;
+}
+
+.footer-account h3{
+    font-size: 32px;
+    color: #010f1c;
+}
+
+.footer-account ul{
+    margin: 10px 0px 0px 30px;
+}
+
+.footer-account ul li{
+    margin-top: 5px;
+    transition: 0.5s;
+    font-size: 14px;
+    color: #010f1c;
+    cursor: pointer;
+}
+
+.footer-account ul li:hover{
+    color: #0989ff;
+}
+
+
+
+.footer-page{
+    margin: 20px 90px 0px 0px;
+}
+
+.footer-page h3{
+    font-size: 32px;
+    color: #010f1c;
+}
+
+.footer-page ul{
+    margin: 10px 0px 0px 30px;
+}
+
+.footer-page ul li{
+    margin-top: 5px;
+    transition: 0.5s;
+    font-size: 14px;
+    color: #010f1c;
+    cursor: pointer;
+}
+
+.footer-page ul li:hover{
+    color: #0989ff;
+}

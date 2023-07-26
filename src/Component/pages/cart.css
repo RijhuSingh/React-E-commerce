@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cart-container1{
+    padding: 40px 50px;
+    width: 100%;
+    background: #f1f1f1;
+}
+
+.emptyCart{
+    margin: 30px 0px 0px 40%;
+}
+
+.empty{
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #010f1c;
+    margin-bottom: 20px;
+}
+
+.emptyBtn{
+    margin-left: 30px;
+    color: #fff;
+    background: #010f1c;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.delBtn{
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+
+}
+
+.cart-container2{
+    max-width: 100%;
+    padding: 20px 30px;
+}
+
+.cart-item{
+    display: flex;
+    padding: 20px 30px;
+    margin: 10px 0 10px 0;
+    background: #fff;
+    border-radius: 5px;
+    /* justify-content: space-between; */
+}
+
+.cart-img{
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+.cart-img img{
+    width: 250px;
+    height: 250px;
+}
+
+.cart-detail{
+    margin-left: 100px;
+    padding: 20px 30px ;
+    display: flex;
+    margin-top: 30px;
+}
+
+.info h4{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #9a9a9a;
+    font-weight: 100;
+}
+.info h3{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    color: #010f1c;
+}
+
+.info p{
+    color: #010f1c;
+    letter-spacing: 1px;
+    margin-top: 10px;
+
+}
+
+.qty{
+    display: flex;
+    margin-top: 10px;
+}
+
+.incqty{
+    color: #0989ff;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+.decqty{
+    color: #0989ff;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+
+.qty input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 25px;
+    width: 50px;
+}
+
+.subtotal{
+    color: #010f1c;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.close{
+    margin: 10px 0 0 150px;
+}
+
+.close button{
+    border: none;
+    background: none;
+    outline: none;
+    color: #db0045;
+    font-size: 25px;
+}
+
+.totalPrice{
+    margin: 30px 0px 0px 45%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.checkout{
+    margin: 40px 0px 0px 48%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    background: #0989ff;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+

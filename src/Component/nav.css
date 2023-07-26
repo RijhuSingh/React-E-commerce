@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.free{
+    padding: 10px 30px;
+    width: 100%;
+    background: #010f1c;
+    color: aliceblue;
+}
+
+.free p{
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+  
+}
+
+.icon1{
+    color: yellow;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.icon2{
+    padding-top: 3px;
+    margin-left: 5px;
+}
+
+
+/* Header section  */
+
+.header{
+  
+    padding: 20px 30px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container .logo{
+    height: 100px;
+    width: 100px;
+    color: rgb(119, 231, 235);
+    cursor: pointer;
+}
+
+.search-box{
+    margin-right: 30px;
+}
+
+.search-box input{
+    font-size: 16px;
+    outline: none;
+    padding: 10px 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #0989ff;
+}
+
+.search-box button{
+    padding: 10px 10px;
+    margin-left: 3px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0.5px solid #0989ff;
+    background: #0989ff;
+    color: aliceblue;
+}
+
+.nav-icon{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 5px; */
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.right-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-icon .link{
+    margin-right: 30px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Navbar  */
+
+.navbar{
+    width: 100%;
+    padding: 20px 30px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+.box{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.box .nav-content ul{
+    display: flex;
+}
+
+.box .nav-content ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.box .nav-content ul li .nav-links{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 0.5s;
+}
+
+.box .nav-content ul li .nav-links:hover{
+    color: #0989ff;
+}
+
+.auth{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.auth button{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;   
+    outline: none;
+    background: none;
+    border: none;
+    transition: 0.5s;
+}
+
+.auth button:hover{
+    color: #0989ff;
+}
+
